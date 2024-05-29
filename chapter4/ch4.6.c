@@ -1,7 +1,7 @@
-/*
+/* 
 *task : Add commands for handling variables. (It's easy to provide twenty-six variables with single-letter names.) Add a variable for the most recently printed value.
 *Author : Rohan Vartak
-*Created :
+*Created : 
 */
 
 /** REQUIRED HEADER FILE */
@@ -137,4 +137,4 @@ void ungetch(int c) {
         printf("ungetch: too many characters\n");
     else
         buf[bufp++] = c;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ~     
+}
